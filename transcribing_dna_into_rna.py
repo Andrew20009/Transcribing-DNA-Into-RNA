@@ -26,7 +26,7 @@ def change_nucleotides(sequence: str) -> str:
 if __name__ == "__main__": # Main branch of the code
     file = "rosalind_rna.txt" #Gives name of varible (rosalind_rna.txt)
     
-    seq = read_dna_from_txt(file) 
-    rna = change_nucleotides(seq)
+    seq = read_dna_from_txt(file) # Imports specific variable from other code
+    rna = change_nucleotides(seq) # Imports specific variable from other code
     
     print(rna)   # Prints RNA sequence
