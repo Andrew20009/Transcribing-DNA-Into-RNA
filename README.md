@@ -1,34 +1,47 @@
-Transcribing DNA into RNA
+# Transcribing DNA into RNA
 
-OVERVIEW
+## OVERVIEW
+This program reads a DNA sequence from a text file and changes the sequence to **RNA**; changes <u>T in the DNA sequence to U in the RNA sequence</u>.
+It is a solution to the **"Transcribing DNA into RNA"** Rosalind problem **(ID: RNA)**. The tool is simple, efficient, and ideal for practicing file handling and string processing in Python.
 
-This program reads a DNA sequence from a text file and changes the sequence to RNA; it changes T in the DNA sequence to U in the RNA sequence.
-It is a solution to the "Transcribing DNA into RNA" Rosalind problem (ID: RNA). The tool is simple, efficient, and ideal for practicing file handling and string processing in Python.
+---
 
-FEATURES
+## FEATURES
+- Reads DNA sequence from a file <u>(rosalind_rna.txt)</u>
+- Automatically converts input to **uppercase**
+- Creates <u>RNA sequence (rna)</u>
+- Converts **T** nucleotide in the DNA into **U** nucleotide in the RNA sequence
+- Leaves <u>A, C, G</u> untouched
+- Fast and memory-efficient — works well with long sequences
+- Clean, well-commented code with proper functions and docstrings
 
-Reads DNA sequence from a file (rosalind_rna.txt)
-Automatically converts input to uppercase
-Creates RNA sequence (rna)
-Converts the T nucleotide in the DNA into the U nucleotide in the RNA sequence.
-Leaves A, C, and G untouched.
-Fast and memory-efficient — works well with long sequences
-Clean, well-commented code with proper functions and docstrings
+---
 
+## ⚠️ IMPORTANT NOTE
+> <u>**!!!Please put the Input txt with name rosalind_rna.txt in the same folder as the code, otherwise you will receive an Error File Not Found!!!**</u>
 
-EXAMPLE
-Input (rosalind_rna.txt): TCCGTAAGACTAGC
-Output: UCCGUAAGACUAGC
+---
 
-HOW IT WORKS
+## EXAMPLE
+**Input** (rosalind_rna.txt):
+```
+TCCGTAAGACTAGC
+```
+**Output:**
+```
+UCCGUAAGACUAGC
+```
 
-The program reads the DNA sequence from the file.
-It cleans the input (removes whitespace and converts to uppercase).
-It changes all T letters in the file to U and puts everything in the (rna) sequence.
-Finally, it prints the RNA sequence.
+---
 
+## HOW IT WORKS
+1. The program reads the DNA sequence from the file
+2. It cleans the input (removes whitespace and converts to **uppercase**)
+3. It changes all <u>T letters to U</u> and puts everything in the **(rna)** sequence
+4. Finally, it prints the **RNA sequence**
 
-TECHNOLOGIES USED
+---
 
-Python
-File txt
+## TECHNOLOGIES USED
+- **Python**
+- **File I/O** (txt)
